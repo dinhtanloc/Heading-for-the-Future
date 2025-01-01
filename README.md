@@ -8,17 +8,15 @@ Based on the materials they have stored in Q4 2022 provided below, find answers 
 
 Moreover, extract one message for the managers from the issues analyzed in the prompt.
 ## Project Structure
-1. Data Collection: Python scripts to collect and preprocess data.
-2. Data Cleaning & Transformation: Using pandas and numpy.
-3. Analysis: Statistical analysis and machine learning models.
-4. Visualization: PowerBI and Python visualization libraries.
-5. Reporting: Generating insights for stakeholders.
+1. data/: Contains raw datasets, cleaned data, and intermediate data files used throughout the project.
+2. docs/: Holds documentation, including data dictionaries, reports, and user guides.
+3. lib/: Stores custom Python scripts, functions, and libraries used for data processing and analysis.
+4. prj/: Includes PowerBI project files (.pbix), dashboards, and visualizations used for reporting insights.
 
 ## Tools
 - Python
-- pandas, numpy, scikit-learn
-- PowerBI, matplotlib, seaborn
-- SQL, SQLite
+- Dax, M language
+- PowerBI
 - Git for version control
 
 ## How to Run
